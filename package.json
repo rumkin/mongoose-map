@@ -1,0 +1,37 @@
+{
+  "devDependencies": {
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "mongoose": "^4.5.1"
+  },
+  "name": "mongoose-map",
+  "version": "1.0.0",
+  "description": "Mongoose ES Map object support",
+  "directories": {
+    "test": "test"
+  },
+  "main": "./mongoose-map.js",
+  "peerDependencies": {
+    "mongoose": "^4.5.1"
+  },
+  "scripts": {
+    "test": "mocha test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rumkin/mongoose-map.git"
+  },
+  "keywords": [
+    "mongoose",
+    "map",
+    "mongoose-type",
+    "custom",
+    "type"
+  ],
+  "author": "rumkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rumkin/mongoose-map/issues"
+  },
+  "homepage": "https://github.com/rumkin/mongoose-map#readme"
+}
