@@ -9,7 +9,7 @@ module.exports = function(mongoose) {
 
     MapType.prototype.cast = function(value) {
         if (! value || typeof value !== 'object') {
-            throw new Error('MapType: Is not an object or map');
+            return value;
         }
 
         var result;
